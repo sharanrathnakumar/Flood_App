@@ -1,0 +1,5 @@
+
+<h1>Flood Landslides Prediction and Management using cloud computing</h1>
+<p>This Application provides users with information regarding natural disturbances which may lead to flood and landslides. Real time datas
+    and precautions to be followed.
+</p>
