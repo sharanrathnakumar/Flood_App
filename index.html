@@ -67,69 +67,169 @@ rel="stylesheet">
             <div class="date">
                 <input type="date" name="" id="">
             </div>
-            <div class="insights">
-            <div class="sales">
-                <span class="material-icons-sharp">bar_chart</span>
-            </div>
-            <div class="middle">
-                <div class="left">
-                    <h3>Users</h3>
-                    <h1>50000</h1>
-                </div>
-                <div class="progress">
-                    <svg>
-                        <circle cx="38" cy="38" r="36"></circle>
-                    </svg>
-                    <div class="number">
-                        <p>81%</p>
-                    </div>
-                </div>
-            </div> 
-            <small class="text-muted">Last 24 hrs</small>   
-            </div>
-            <!---End of Sales ---->
+           <div class="insights">
+               <div class="sales">
+                   <span class="material-icons-sharp">analytics</span>
+                   <div class="middle">
+                       <div class="left">
+                           <h3>Users</h3>
+                           <h1>1500</h1>
+                       </div>
+                       <div class="progress">
+                           <svg>
+                               <circle cx='38' cy='38' r='36'></circle>
+                           </svg>
+                           <div class="number">
+                               <p>81%</p>
+                           </div>
+                       </div>
+                   </div>
+                   <small class="text-muted">Last seen 24hrs</small>
+               </div>
+           <!--End of Sales-->
+
             <div class="expenses">
-                <span class="material-icons-sharp">sales</span>
-            </div>
-            <div class="middle">
-                <div class="left">
-                    <h3>Risk Status</h3>
-                    <h1>HIGH</h1>
-                </div>
-                <div class="progress">
-                    <svg>
-                        <circle cx="38" cy="38" r="36"></circle>
-                    </svg>
-                    <div class="number">
-                        <p>81%</p>
+                <span class="material-icons-sharp">bar_chart</span>
+                <div class="middle">
+                    <div class="left">
+                        <h3>Flood Occurance Chance </h3>
+                        <h1>Low</h1>
+                    </div>
+                    <div class="progress">
+                        <svg>
+                            <circle cx='38' cy='38' r='36'></circle>
+                        </svg>
+                        <div class="number">
+                            <p>61%</p>
+                        </div>
                     </div>
                 </div>
-            </div> 
-            <small class="text-muted">Last 24 hrs</small>   
+                <small class="text-muted">Last seen 24hrs</small>
             </div>
-            <!---End of Expenses ---->
+            <!--End of Expenses-->
+
             <div class="income">
                 <span class="material-icons-sharp">stacked_line_chart</span>
-            </div>
-            <div class="middle">
-                <div class="left">
-                    <h3>Moisture Level</h3>
-                    <h1>50%</h1>
-                </div>
-                <div class="progress">
-                    <svg>
-                        <circle cx="38" cy="38" r="36"></circle>
-                    </svg>
-                    <div class="number">
-                        <p>81%</p>
+                <div class="middle">
+                    <div class="left">
+                        <h3>Landslide Chance</h3>
+                        <h1>Low</h1>
+                    </div>
+                    <div class="progress">
+                        <svg>
+                            <circle cx='38' cy='38' r='36'></circle>
+                        </svg>
+                        <div class="number">
+                            <p>51%</p>
+                        </div>
                     </div>
                 </div>
-            </div> 
-            <small class="text-muted">Last 24 hrs</small>   
+                <small class="text-muted">Last seen 24hrs</small>
             </div>
-            <!---End of Incomes ---->
-        </main>
+            <!--End of Income-->
+        </div>
+        <!--End of Insights-->
+
+        <!--==============Table============-->
+        <div class="recent-orders">
+            <h2>Recent Orders</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Product Number</th>
+                        <th>Status</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>water level</td>
+                        <td>2022</td>
+                        <td class="warning">Green</td>
+                        <td class="primary">Details</td>
+                    </tr>
+                    <tr>
+                        <td>Soil Capacity</td>
+                        <td>2202</td>
+                        <td class="warning">Green</td>
+                        <td class="primary">Details</td>
+                    </tr>
+                    <tr>
+                        <td>Chance for Flood</td>
+                        <td>2</td>
+                        <td class="warning">Low</td>
+                        <td class="primary">Details</td>
+                    </tr>
+                    <tr>
+                        <td>Chance for Landslide</td>
+                        <td>2</td>
+                        <td class="warning">Low</td>
+                        <td class="primary">Details</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="#">Show All</a>
+        </div>
+    </main>
+    <!----------End of Main-------->
+    <div class="right">
+        <div class="top">
+            <button id="menu-btn">
+                <span class="material-icons-sharp">menu</span>
+            </button>
+            <div class="theme-toggler">
+                <span class="material-icons-sharp active">light_mode</span>
+                <span class="material-icons-sharp">dark_mode</span>
+            </div>
+            <div class="profile">
+                <div class="info">
+                    <p>Hey, <b>Sharan</b></p>
+                    <small class="text-muted">Admin</small>
+                </div>
+                <div class="profile-photo">
+                    <img src="./images/profile_pic.png" alt="profile-pic">
+                </div>
+            </div>
+        </div>
+        <!--End of Top-->
+        <div class="recent-updates">
+            <h2>Recent Updates</h2>
+            <div class="updates">
+                <div class="update">
+                    <div class="profile-photo">
+                        <img src="./images/profile_pic.png" alt="">
+                    </div>
+                    <div class="message">
+                        <p><b>Nandakishor</b>reiceved his order of Night lion tech GPS</p>
+                        <small class="text-muted">2 min ago</small>
+                    </div>
+                </div>
+
+                <div class="update">
+                    <div class="profile-photo">
+                        <img src="./images/profile_pic.png" alt="">
+                    </div>
+                    <div class="message">
+                        <p><b>Amal</b>reiceved his order of Night lion tech GPS</p>
+                        <small class="text-muted">2 min ago</small>
+                    </div>
+                </div>
+                <div class="update">
+                    <div class="profile-photo">
+                        <img src="./images/profile_pic.png" alt="">
+                    </div>
+                    <div class="message">
+                        <p><b>Albin</b>reiceved his order of Night lion tech GPS</p>
+                        <small class="text-muted">2 min ago</small>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
+    </div>
+    <script src="./index.js"></script>
 </body>
 </html>
                   
